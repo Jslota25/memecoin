@@ -1,0 +1,9 @@
+ /* Custom CSS to move navbar brand to the left */
+ .navbar-brand-container {
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    margin-left: 10px; /* Adjust this value as needed */
+}
