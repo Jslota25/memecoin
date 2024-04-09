@@ -13,8 +13,11 @@
 }
 
 .navbar-nav .nav-link {
-    font-family: 'Times New Roman';
+    font-family: 'Arial';
+    font-size: x-large;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    -webkit-text-stroke: 1px white;
 }
 
 .container {
