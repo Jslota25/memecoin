@@ -1,10 +1,8 @@
-var buybutton = document.getElementById("Buy");
-buyButton.addEventListener("click", pushButton);
-var chartbutton = document.getElementById("Chart")
-var followbutton = document.getElementById("Follow")
+function buttonClicked(buttonId) {
+    // Handle button click event here
+    console.log(buttonId + " clicked!");
+}
 
-
-
-function pushButton() {
-    buybutton
+function navigateToLink(url) {
+    window.location.href = url;
 }
