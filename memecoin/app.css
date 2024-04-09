@@ -1,9 +1,21 @@
- /* Custom CSS to move navbar brand to the left */
- .navbar-brand-container {
+.navbar-brand-container {
     display: flex;
     align-items: center;
 }
 
 #title {
-    margin-left: 10px; /* Adjust this value as needed */
+    margin-left: 10px; 
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.container {
+    background-color: pink;
+}
+
+.container-fluid {
+    background-color: pink;
+    height: 110px;
 }
